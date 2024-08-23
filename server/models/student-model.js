@@ -7,7 +7,7 @@ const studentSchema = new mongoose.Schema({
         unique:true
     },
     name:{
-        type:text,
+        type:String,
         required:true
     },
     email:{
@@ -19,7 +19,7 @@ const studentSchema = new mongoose.Schema({
         required:true
     },
     isGraduated:{
-        type:boolean,
+        type:Boolean,
         required:true
     }
 })
