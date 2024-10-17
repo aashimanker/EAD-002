@@ -13,3 +13,9 @@ server/package-lock.json
 # Ignore OS generated files
 .DS_Store
 Thumbs.db
+
+client/postcss.config.js
+client/tailwind.config.js
+client/vite.config.js
+client/README.md
+client/eslint.config.js
